@@ -1,0 +1,30 @@
+{
+  "name": "css-study-seminar-normal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf ./dist && webpack serve",
+    "sample": "webpack serve -c webpack.sample.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmc-jp/css-study-seminar.git"
+  },
+  "author": "ryokohbato",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kmc-jp/css-study-seminar/issues"
+  },
+  "homepage": "https://github.com/kmc-jp/css-study-seminar#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
