@@ -23,6 +23,7 @@ Hello, World!
 
   ```bat
   $  cd
+  C:\Windows\System32
   ```
 
 - Linux
@@ -35,7 +36,12 @@ Hello, World!
 #### 現在いるディレクトリの内容を表示
 - Windows
   ```bat
-  dir
+  $  dir
+  2021/07/29  06:23    <DIR>          .
+  2021/07/29  06:23    <DIR>          ..
+  2021/07/29  06:23    <DIR>          obj
+  2021/07/29  06:23               195 Program.cs
+  2021/07/29  06:23               171 sampleProject.csproj
   ```
 
 - Linux
