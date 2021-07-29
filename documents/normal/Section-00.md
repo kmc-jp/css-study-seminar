@@ -3,7 +3,7 @@
 ## コマンドライン基本操作
 
 はじめに、コマンドラインの基本操作について説明をします。本資料ではしばしば、以下のような記述が登場します。
-```bash
+```
 $  echo "Hello, World!"
 Hello, World!
 ```
@@ -14,28 +14,28 @@ Hello, World!
 #### ディレクトリ (フォルダ) の移動
 - Windows / Linux
 
-  ```bat
+  ```
   $  cd bin
   ```
 
 #### 現在いるディレクトリ (フォルダ) のパスを表示
 - Windows
 
-  ```bat
+  ```
   $  cd
   C:\Windows\System32
   ```
 
 - Linux
 
-  ```bash
+  ```
   $  pwd
   /home/ryokohbato/develop/css-study-seminar/normal
   ```
 
 #### 現在いるディレクトリの内容を表示
 - Windows
-  ```bat
+  ```
   $  dir
   2021/07/29  06:23    <DIR>          .
   2021/07/29  06:23    <DIR>          ..
@@ -45,7 +45,7 @@ Hello, World!
   ```
 
 - Linux
-  ```bash
+  ```
   $  ls -al
   drwxr-xr-x   - ryokohbato 29  7月 15:09 obj
   .rw-r--r-- 176 ryokohbato 29  7月 15:09 Program.cs
@@ -55,33 +55,33 @@ Hello, World!
 #### ディレクトリ (フォルダ) を作成
 - Windows / Linux
 
-  ```bash
+  ```
   $  mkdir bin
   ```
 
 #### ファイルをコピー
 - Windows
 
-  ```bat
+  ```
   $  copy test.txt dist\
   ```
 
 - Linux
 
-  ```bash
+  ```
   $  cp test.txt dist/
   ```
 
 #### ファイルを削除
 - Windows
 
-  ```bat
+  ```
   $  del test.txt
   ```
 
 - Linux
 
-  ```bash
+  ```
   $  rm test.txt
   ```
 
@@ -93,14 +93,14 @@ Hello, World!
 
 以下のようにして、Node.jsがインストールされたことを確認することができます。
 
-```bash
+```
 $  node --version
 v14.17.3
 ```
 
 2. GitHubから、任意のフォルダにリポジトリをクローン (以下はSSHの例)
 
-```bash
+```
 $  git clone git@github.com:kmc-jp/css-study-seminar.git
 ```
 
@@ -108,17 +108,17 @@ $  git clone git@github.com:kmc-jp/css-study-seminar.git
 
 Normal用のフォルダに移動
 
-```bash
+```
 $  cd css-study-seminar/normal/
 ```
 
 必要なパッケージをインストール
-```bash
+```
 $  npm install
 ```
 
 サンプルプロジェクトを起動
-```bash
+```
 $  npm run sample
 ```
 
