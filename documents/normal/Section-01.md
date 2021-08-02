@@ -81,7 +81,7 @@ HTMLは、[タグ](https://developer.mozilla.org/ja/docs/Glossary/Tag)とそれ�
 </div>
 ```
 
-どのタグの中に何を入れることができるのかは予め定められており、コンテンツモデルと呼ばれています。詳しくは、Section Aで解説します。
+どのタグの中に何を入れることができるのかは予め定められており、コンテンツモデルと呼ばれています。詳しくは、[Section A - コンテンツモデルとコンテンツカテゴリー](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%83%BC)で解説します。
 
 
 ### DOM
@@ -130,7 +130,7 @@ classを用いることで、タグを識別できるようにできます。ま
 ```
 
 上記の例では、`input`要素に`type`属性と`checked`属性が付与されています。<br>
-`type`属性の値は`checkbox`ですが、`checked`属性の属性値は省略されています。詳細は Section Aで説明します。
+`type`属性の値は`checkbox`ですが、`checked`属性の属性値は省略されています。詳細は [Section A - 真偽値を表す属性](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#%E7%9C%9F%E5%81%BD%E5%80%A4%E3%82%92%E8%A1%A8%E3%81%99%E5%B1%9E%E6%80%A7)で説明します。
 
 ### HTMLの雛形
 
@@ -150,7 +150,7 @@ classを用いることで、タグを識別できるようにできます。ま
 ```
 
 titleタグ内に、ウェブページのタイトル文字列を設定します。<br>
-一般的には、ここにもう少し手を加えたものが実際に雛形として使用されます。詳しくは、Section Aで解説します。
+一般的には、ここにもう少し手を加えたものが実際に雛形として使用されます。詳しくは、[Section A - HTMLの雛形](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#html%E3%81%AE%E9%9B%9B%E5%BD%A2)で解説します。
 
 ## 基本的なタグ
 
