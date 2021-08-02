@@ -196,64 +196,90 @@
 
 フォーム (サーバーに情報を送るパーツ) を表します。
 
-以下は、`form`要素と`input`要素の使用方法の例です。フィールドを必須項目にするには、`required`属性を使用します。
+以下は、`form`要素と`input`要素の使用方法の例です。フィールドを必須項目にするには、`required`属性を使用します。また、入力値ヒントを表示するには、`placeholder`属性を使用します。
+
+> [HTML 属性: required | MDN](https://developer.mozilla.org/ja/docs/Web/HTML/Attributes/required)<br>
+> [placeholder 属性 | MDN](https://developer.mozilla.org/ja/docs/orphaned/Learn/HTML/Forms/HTML5_updates#the_placeholder_attribute)
 
 ```html
-  <form action="">
-    <div>
-      <input type="checkbox" name="can-read-lang" id="can-read-en">
-      <label for="can-read-en">英語</label>
-      <input type="checkbox" name="can-read-lang" id="can-read-ja">
-      <label for="can-read-ja">日本語</label>
-      <input type="checkbox" name="can-read-lang" id="can-read-fr">
-      <label for="can-read-fr">フランス語</label>
-    </div>
-    <div>
-      <label for="text-color">色の選択</label>
-      <input type="color" name="text-color" id="text-color">
-    </div>
-    <div>
-      <label for="birthday">生年月日</label>
-      <input type="date" name="birthday" id="birthday">
-    </div>
-    <div>
-      <label for="start-time">開始時刻</label>
-      <input type="time" name="start-time" id="start-time">
-    </div>
-    <div>
-      <label for="user-name">氏名</label>
-      <input type="text" name="user-name" id="user-name">
-    </div>
-    <div>
-      <label for="email-address">メールアドレス</label>
-      <input type="email" name="email-address" id="email-address">
-    </div>
-    <div>
-      <label for="age">年齢</label>
-      <input type="number" name="age" id="age">
-    </div>
-    <div>
-      <label for="profile-icon">プロフィールアイコン</label>
-      <input type="file" name="profile-icon" id="profile-icon">
-    </div>
-    <div>
-      <label for="user-password">パスワード</label>
-      <input type="password" name="user-password" id="user-password">
-    </div>
-    <div>
-      <input type="radio" name="contact" id="contact-email">
-      <label for="contact-email">メール</label>
-      <input type="radio" name="contact" id="contact-phone">
-      <label for="contact-phone">電話</label>
-    </div>
-    <div>
-      <input type="range" name="volume" id="volume">
-    </div>
-    <div>
-      <input type="reset" value="リセット">
-      <input type="button" value="送信">
-    </div>
-  </form>
+<form action="">
+  <div>
+    <input type="checkbox" name="can-read-lang" id="can-read-en">
+    <label for="can-read-en">英語</label>
+    <input type="checkbox" name="can-read-lang" id="can-read-ja">
+    <label for="can-read-ja">日本語</label>
+    <input type="checkbox" name="can-read-lang" id="can-read-fr">
+    <label for="can-read-fr">フランス語</label>
+  </div>
+  <div>
+    <label for="text-color">色の選択</label>
+    <input type="color" name="text-color" id="text-color">
+  </div>
+  <div>
+    <label for="birthday">生年月日</label>
+    <input type="date" name="birthday" id="birthday">
+  </div>
+  <div>
+    <label for="start-time">開始時刻</label>
+    <input type="time" name="start-time" id="start-time">
+  </div>
+  <div>
+    <label for="user-name">氏名</label>
+    <input type="text" name="user-name" id="user-name" placeholder="山田太郎">
+  </div>
+  <div>
+    <label for="email-address">メールアドレス</label>
+    <input type="email" name="email-address" id="email-address">
+  </div>
+  <div>
+    <label for="age">年齢</label>
+    <input type="number" name="age" id="age">
+  </div>
+  <div>
+    <label for="profile-icon">プロフィールアイコン</label>
+    <input type="file" name="profile-icon" id="profile-icon">
+  </div>
+  <div>
+    <label for="user-password">パスワード</label>
+    <input type="password" name="user-password" id="user-password">
+  </div>
+  <div>
+    <input type="radio" name="contact" id="contact-email">
+    <label for="contact-email">メール</label>
+    <input type="radio" name="contact" id="contact-phone">
+    <label for="contact-phone">電話</label>
+  </div>
+  <div>
+    <input type="range" name="volume" id="volume">
+  </div>
+  <div>
+    <progress></progress>
+  </div>
+  <div>
+    <progress max="100" value="80"></progress>
+  </div>
+  <div>
+    <label for="address">居住地区</label>
+    <select name="address" id="address">
+      <option value="address-1">北海道</option>
+      <option value="address-2">東北</option>
+      <option value="address-3">関東</option>
+      <option value="address-4">中部</option>
+      <option value="address-5">関西</option>
+      <option value="address-6">中国</option>
+      <option value="address-7">四国</option>
+      <option value="address-7">九州・沖縄</option>
+    </select>
+  </div>
+  <div>
+    <label for="others">備考</label>
+    <textarea name="others" id="others" cols="30" rows="10" placeholder="自由に記述してください。"></textarea>
+  </div>
+  <div>
+    <input type="reset" value="リセット">
+    <input type="button" value="送信">
+  </div>
+</form>
 ```
 
 ### [dl](https://developer.mozilla.org/ja/docs/Web/HTML/Element/dl)
