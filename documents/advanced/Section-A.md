@@ -1,4 +1,4 @@
-# Section A : HTML
+# Section A : HTMLの構造とコンテンツモデル
 
 ## HTMLの雛形
 
