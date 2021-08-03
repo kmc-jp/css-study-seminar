@@ -175,11 +175,11 @@
 `option`要素を用いてメニューを作成します。
 
 ```html
-<option>
+<select>
   <option value="dog">犬</option>
   <option value="cat">猫</option>
   <option value="rabbit">うさぎ</option>
-</option>
+</select>
 ```
 
 ### [option](https://developer.mozilla.org/ja/docs/Web/HTML/Element/option)
@@ -191,6 +191,8 @@
 ```html
 <textarea name="answer" id="answer" cols="30" rows="10">KMC</textarea>
 ```
+
+複数行入力可能なテキスト入力用コントロールを作成します。
 
 ### [form](https://developer.mozilla.org/ja/docs/Web/HTML/Element/form)
 
