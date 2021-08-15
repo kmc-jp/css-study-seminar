@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rimraf ./dist && webpack serve",
-    "sample": "webpack serve -c webpack.sample.config.js"
+    "dev": "webpack serve",
+    "sample": "webpack serve -c webpack.sample.config.js",
+    "ex1": "webpack serve -c webpack.ex1.config.js",
+    "ex1-sample": "webpack serve -c webpack.ex1-sample.config.js"
   },
   "repository": {
     "type": "git",

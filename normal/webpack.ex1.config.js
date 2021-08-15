@@ -2,9 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
+const projectDirName = 'ex1';
+
 module.exports = {
   mode: "development",
-  entry: "./src/main.js",
+  entry: `./${projectDirName}/main.js`,
   output: {
     filename: "main.js",
     path: path.join(__dirname, "dist")
@@ -25,14 +27,14 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './src/index.html',
+      template: `./${projectDirName}/index.html`,
     }),
     new CopyPlugin({
       patterns: [
         {
-          from: 'src/**/*.(css)',
+          from: `${projectDirName}/**/*.(css)`,
           to({ context, absoluteFilename }) {
-            return absoluteFilename.replace(`${path.resolve(__dirname)}/src/`, "");
+            return absoluteFilename.replace(`${path.resolve(__dirname)}/${projectDirName}/`, "");
           },
         }
       ]
@@ -40,9 +42,9 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: 'src/**/*.(png|jpg|jpeg|gif|bmp|tif|tiff)',
+          from: `${projectDirName}/**/*.(png|jpg|jpeg|gif|bmp|tif|tiff)`,
           to({ context, absoluteFilename }) {
-            return absoluteFilename.replace(`${path.resolve(__dirname)}/src/`, "");
+            return absoluteFilename.replace(`${path.resolve(__dirname)}/${projectDirName}/`, "");
           },
         }
       ]
