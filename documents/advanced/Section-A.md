@@ -20,7 +20,7 @@ Section 1 で紹介したものに少し記述を追加した以下のHTMLが、
 </html>
 ```
 
-`head`タグには、これ以外にも多くの項目を指定可能ですが、それについては Section B で扱います。<br>
+`head`タグには、これ以外にも多くの項目を指定可能ですが、それについては [Section B - HTMLの雛形2](https://github.com/ryokohbato/css-study-seminar/blob/main/documents/advanced/Section-B.md#html%E3%81%AE%E9%9B%9B%E5%BD%A22) で扱います。<br>
 では、この雛形を読み進めます。
 
 ### [DOCTYPE宣言](https://developer.mozilla.org/ja/docs/Glossary/Doctype)
