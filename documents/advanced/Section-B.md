@@ -92,7 +92,7 @@ JavaScriptなどを埋め込むために使用します。
 
 ## HTMLの雛形2
 
-Section A で解説したHTMLの雛形に、`head`タグ内の記述を追加しています。
+[Section A - HTMLの雛形](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#html%E3%81%AE%E9%9B%9B%E5%BD%A2) で解説したHTMLの雛形に、`head`タグ内の記述を追加しています。
 
 ```html
 <!DOCTYPE html>
@@ -122,7 +122,7 @@ Section A で解説したHTMLの雛形に、`head`タグ内の記述を追加し
 <title>KMC | 京大マイコンクラブ</title>
 ```
 
-この部分は Section A で解説したので省略します。
+この部分は [Section A - HTMLの雛形](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#html%E3%81%AE%E9%9B%9B%E5%BD%A2) で解説したので省略します。
 
 #### ページの概要
 
