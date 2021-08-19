@@ -6,3 +6,4 @@
 
 # Advanced
 - [Section A : HTMLの構造とコンテンツモデル](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md)
+- [Section B : 基本的なタグ 3](https://github.com/ryokohbato/css-study-seminar/blob/main/documents/advanced/Section-B.md)
