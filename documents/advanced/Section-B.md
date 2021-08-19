@@ -64,8 +64,7 @@ detailsタグと一緒に使用して、折りたたみ要素を作成します�
   <h1>動物</h1>
   <section>
     <h2>イヌ</h2>
-    <p>かわいい。ドッグフードを食べる。
-    </p>
+    <p>かわいい。ドッグフードを食べる。</p>
   </section>
 
   <section>
@@ -127,7 +126,7 @@ Section A で解説したHTMLの雛形に、`head`タグ内の記述を追加し
 
 #### ページの概要
 
-検索エンジンの検索結果に表示されることがあります。
+ページの概要を記述します。検索エンジンの検索結果に表示されることがあります。
 
 ```html
 <meta name="description" content="KMC (京大マイコンクラブ) は、京都大学を中心に活動している京都大学全学公認のコンピュータサークルです。">
@@ -156,12 +155,14 @@ Section A で解説したHTMLの雛形に、`head`タグ内の記述を追加し
 ```
 
 
-`head`タグの中には、ここで紹介したもの以外にも、たくさんのタグが使用されます。
+`head`タグの中には、ここで紹介したもの以外にも、たくさんのタグを使用することができます。
 
 ## 特殊文字
 
 HTMLには、直接記述することができない文字が存在します。例えば、 `<` は、タグを表すのに用いられるので、直接HTML内に文字として `<` を記述することはできません。<br>
 そこで、文字参照と呼ばれる方法を用います。
+
+> [5.3 Character references | HTML 4.01 Specification](https://www.w3.org/TR/html4/charset.html#entities)
 
 |  文字   | 文字参照  |
 |:------:|:--------:|
@@ -171,13 +172,15 @@ HTMLには、直接記述することができない文字が存在します。�
 | 「`"`」 | `&quot;` |
 | 「` `」 | `&nbsp;` |
 
+これ以外にもたくさんの文字参照を使用することができます。
+
+> [Character Entity Reference Chart | HTML5 Reference](https://dev.w3.org/html5/html-author/charref)
+
 ```html
 <p>
   A &amp; B
 </p>
 ```
-
-> [5.3 Character references | HTML 4.01 Specification](https://www.w3.org/TR/html4/charset.html#entities)
 
 ## Emmet
 
