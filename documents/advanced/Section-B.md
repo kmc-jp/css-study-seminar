@@ -204,6 +204,6 @@ Emmetを用いることで、HTMLを素早く記述することができます�
 <blockquote></blockquote>
 ```
 
-Emmetの記法については、CSSの回で詳しく紹介します。
+Emmetの記法については、[Section D : Emmet](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-D.md#section-d--emmet)で詳しく紹介します。
 
 > [Abbreviations Syntax | Emmet Documentation](https://docs.emmet.io/abbreviations/syntax/#abbreviations-syntax)
