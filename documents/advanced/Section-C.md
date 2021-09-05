@@ -100,9 +100,9 @@ ul.header-item > li {
 }
 ```
 
-#### [隣接する兄弟要素に対する指定](https://developer.mozilla.org/ja/docs/Web/CSS/Adjacent_sibling_combinator)
+#### [直後の兄弟要素に対する指定](https://developer.mozilla.org/ja/docs/Web/CSS/Adjacent_sibling_combinator)
 
-以下の例では、`img`要素の前後の兄弟要素が`p`要素であった場合、当該の`p`要素のみに適用されます。
+以下の例では、`img`要素の直後の兄弟要素が`p`要素であった場合、当該の`p`要素のみに適用されます。
 
 ```css
 img + p {
@@ -112,7 +112,7 @@ img + p {
 
 #### [兄弟要素に対する指定](https://developer.mozilla.org/ja/docs/Web/CSS/General_sibling_combinator)
 
-以下の例では、前後だけでなく全ての兄弟要素に適用されます。
+以下の例では、直後だけでなく全ての兄弟要素に適用されます。
 
 ```css
 p ~ span {
