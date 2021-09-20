@@ -1,0 +1,23 @@
+body {
+  --font-size: 50px;
+  background-color: #334;
+  color: white;
+  font-size: var(--font-size);
+  position: relative;
+}
+
+.logo-text__wrapper {
+  border: 1px solid white;
+  border-radius: 16px;
+  height: calc(var(--font-size) * 4.5);
+  left: 50%;
+  margin-top: 16vh;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(var(--font-size) * 9.5);
+}
+
+.logo-text {
+  margin-left: calc(var(--font-size) * 4.5);
+  word-break: keep-all;
+}
