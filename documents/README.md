@@ -14,3 +14,4 @@
 - [Section C : 複雑なセレクターの指定](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-C.md)
 - [Section D : Emmet](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-D.md)
 - [Section E : CSSデザインパターン 2](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-E.md)
+- [Section F : リップルエフェクト](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-F.md)
