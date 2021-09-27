@@ -7,6 +7,7 @@
 - [Section 4 : CSS演習1・開発者ツールの使い方](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/normal/Section-04.md)
 - [Section 5 : CSSデザインパターン 1](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/normal/Section-05.md)
 - [Section 6 : 「CSS完全に理解した」](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/normal/Section-06.md)
+- [Section 7 : レスポンシブデザイン](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/normal/Section-07.md)
 
 # Advanced
 - [Section A : HTMLの構造とコンテンツモデル](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md)
