@@ -10,7 +10,8 @@
     "ex1-sample": "webpack serve -c webpack.ex1-sample.config.js",
     "ex2": "webpack serve -c webpack.ex2.config.js",
     "ex2-sample": "webpack serve -c webpack.ex2-sample.config.js",
-    "ex3": "webpack serve -c webpack.ex3.config.js"
+    "ex3": "webpack serve -c webpack.ex3.config.js",
+    "ex3-sample": "webpack serve -c webpack.ex3-sample.config.js"
   },
   "repository": {
     "type": "git",
