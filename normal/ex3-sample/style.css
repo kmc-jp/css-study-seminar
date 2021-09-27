@@ -1,0 +1,42 @@
+body {
+  --bgc: #202124;
+  background-color: var(--bgc);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.finder-container {
+  margin-top: 15vh;
+}
+
+.finder {
+  background-color: var(--bgc);
+  border: 1px solid #99999950;
+  border-radius: 2.5vw;
+  color: white;
+  display: inline-block;
+  font-size: 1.2vw;
+  height: 5vw;
+  margin-top: 24px;
+  outline: none;
+  padding-left: 1.5vw;
+  position: relative;
+  width: 80vw;
+}
+
+.finder-img {
+  display: inline-block;
+  width: 40%;
+}
+
+@media screen and (min-width: 900px) {
+  .finder {
+    height: 45px;
+    width: 720px;
+  }
+
+  .finder-img {
+    width: 360px;
+  }
+}
