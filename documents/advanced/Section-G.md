@@ -63,7 +63,7 @@
 
 > [アクセシビリティツール | Adobe Color](https://color.adobe.com/ja/create/color-contrast-analyzer)
 
-フォーカスリングは、`outline`プロパティや`outline-offset`プロパティを用いて、フォーカスリングをスタイリングし、フォーカスが当たっているかどうかをわかりやすくしておくと良いです。
+フォーカスリングは、`outline`プロパティや`outline-offset`プロパティを用いてスタイリングし、フォーカスが当たっているかどうかをわかりやすくしておくと良いです。
 
 ```css
 .form-view--submit:focus {
@@ -75,8 +75,8 @@
 ### キーボードでの操作
 
 - [x] Tabキーで必要な要素にアクセス可能かどうか
-- [x] ボタンをShiftキーやEnterキーで押すことができるか
-- [x] 折りたたみ要素をShiftキーやEnterキーで開閉することができるか
+- [x] ボタンをSpaceキーやEnterキーで押すことができるか
+- [x] 折りたたみ要素をSpaceキーやEnterキーで開閉することができるか
 
 > [Section A : HTMLの構造とコンテンツモデル - tabindex](https://github.com/kmc-jp/css-study-seminar/blob/main/documents/advanced/Section-A.md#tabindex)
 
@@ -113,7 +113,7 @@ WAI-ARIAはあまりに多機能であるため、その全てを一度に紹介
 
 ### CSSでの使用例
 
-WAI-ARIAを補助的なものとしてではなく、WAI-ARIAベースで状態管理を行うことで、無理なくアクセシビリティの向上を図ることができます。<br>
+WAI-ARIAを補助的なものとして使用するのではなく、WAI-ARIAベースで状態管理を行うことで、無理なくアクセシビリティの向上を図ることができます。<br>
 以下の例では、ボタンの状態管理をWAI-ARIAの`aria-disabled`属性で行っています。
 
 ```css
