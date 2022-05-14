@@ -5,3 +5,7 @@
 
 - GitHub: https://github.com/kmc-jp/css-study-seminar<br>
 - Slack: #css-study-seminar
+
+## Webサービス勉強会2022について
+
+**この勉強会の経験と反省を活かし、より内容がパワーアップした[Webサービス勉強会2022](https://github.com/kmc-jp/2022-web)の資料も公開しています！**
